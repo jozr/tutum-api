@@ -11,9 +11,9 @@ class Tutum
 
   def headers
     {
-      "Authorization" => "ApiKey #{@username}:#{@api_key}",
-      "Accept" => "application/json",
-      "Content-Type" => "application/json"
+      'Authorization' => "ApiKey #{@username}:#{@api_key}",
+      'Accept' => 'application/json',
+      'Content-Type' => 'application/json'
     }
   end
 
@@ -34,7 +34,7 @@ class Tutum
   end
 
   def node_types
-    @node_types ||= TutumNOdeTypes.new(headers)
+    @node_types ||= TutumNodeTypes.new(headers)
   end
 
   def nodes

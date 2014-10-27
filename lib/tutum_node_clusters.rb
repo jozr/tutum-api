@@ -1,18 +1,18 @@
 class TutumNodeClusters < TutumApi
   def list_url
-    "/nodecluster/"
+    '/nodecluster/'
   end
 
   def list(params)
-    get(list_url, params)
+    http_get(list_url, params)
   end
 
   def create_url
-    "/nodecluster/"
+    '/nodecluster/'
   end
 
   def create(params)
-    post(create_url, params)
+    http_post(create_url, params)
   end
 
   def get_url(uuid)
@@ -20,7 +20,7 @@ class TutumNodeClusters < TutumApi
   end
 
   def get(uuid)
-    get(get_url(uuid))
+    http_get(get_url(uuid))
   end
 
   def update_url(uuid)
@@ -28,7 +28,7 @@ class TutumNodeClusters < TutumApi
   end
 
   def update(uuid, params)
-    put(update_url(uuid), params)
+    http_put(update_url(uuid), params)
   end
 
   def deploy_url(uuid)
@@ -36,7 +36,7 @@ class TutumNodeClusters < TutumApi
   end
 
   def deploy(uuid, params)
-    post(deploy_url(uuid), params)
+    http_post(deploy_url(uuid), params)
   end
 
   def terminate_url(uuid)

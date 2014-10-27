@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors       = ['Josie Wright', 'Martyn Garcia', 'Mikkel Garcia']
   s.email         = ['jozwright@gmail.com']
   s.homepage      = 'http://rubygems.org/gems/tutum-api'
-  s.summary       = 'Ruby Support for Tutum API'
-  s.files         = Dir.glob('lib/factor/connector/*.rb')
+  s.summary       = 'A Ruby wrapper around the Tutum API'
+  s.files         = Dir.glob('lib/*.rb')
 
   s.require_paths = ['lib']
 
