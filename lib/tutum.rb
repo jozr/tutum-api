@@ -1,4 +1,5 @@
 require_relative './tutum_api'
+require_relative './tutum_nodes'
 require_relative './tutum_node_clusters'
 
 class Tutum

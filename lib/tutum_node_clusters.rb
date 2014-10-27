@@ -1,14 +1,14 @@
 class TutumNodeClusters < TutumApi
   def list_url
-    '/nodecluster/'
+    "/nodecluster/"
   end
 
-  def list(params)
-    http_get(list_url, params)
+  def list
+    http_get(list_url)
   end
 
   def create_url
-    '/nodecluster/'
+    "/nodecluster/"
   end
 
   def create(params)
