@@ -3,8 +3,8 @@ class TutumServices < TutumApi
     "/service/"
   end
 
-  def list(params)
-    http_get(list_url, params)
+  def list
+    http_get(list_url)
   end
 
   def create_url
@@ -36,7 +36,7 @@ class TutumServices < TutumApi
   end
 
   def update(uuid, params)
-    http_patch(update_url(uuid), params)
+    http_put(update_url(uuid), params)
   end
 
   def start_url(uuid)
@@ -70,5 +70,4 @@ class TutumServices < TutumApi
   def terminate(uuid)
     http_delete(terminate_url(uuid))
   end
-
 end
