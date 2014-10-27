@@ -3,7 +3,7 @@ class TutumNodeClusters < TutumApi
     "/nodecluster/"
   end
 
-  def list(params={})
+  def list
     http_get(list_url)
   end
 
@@ -35,8 +35,8 @@ class TutumNodeClusters < TutumApi
     "/nodecluster/#{uuid}/deploy/"
   end
 
-  def deploy(uuid, params)
-    http_post(deploy_url(uuid), params)
+  def deploy(uuid)
+    http_post(deploy_url(uuid))
   end
 
   def terminate_url(uuid)
@@ -46,5 +46,4 @@ class TutumNodeClusters < TutumApi
   def terminate(uuid)
     delete(terminate_url(uuid))
   end
-
 end
