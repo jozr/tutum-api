@@ -1,3 +1,6 @@
+require_relative './tutum_api'
+require_relative './tutum_node_clusters'
+
 class Tutum
   attr_reader :username, :api_key
 

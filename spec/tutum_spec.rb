@@ -14,7 +14,7 @@ describe Tutum do
   end
 
   it "compiles headers" do
-    expect(subject.headers["Authorization"].length).to be > (1)
+    expect(subject.headers["Authorization"].length).to be > 1
     expect(subject.headers["Accept"]).to eq("application/json")
   end
 end
