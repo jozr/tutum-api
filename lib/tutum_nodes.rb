@@ -3,7 +3,7 @@ class TutumNodes < TutumApi
     "/node/"
   end
 
-  def list
+  def list(params={})
     http_get(list_url)
   end
 

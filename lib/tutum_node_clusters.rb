@@ -3,7 +3,7 @@ class TutumNodeClusters < TutumApi
     "/nodecluster/"
   end
 
-  def list
+  def list(params={})
     http_get(list_url)
   end
 
