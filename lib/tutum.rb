@@ -6,6 +6,7 @@ require_relative './tutum_node_clusters'
 require_relative './tutum_node_types'
 require_relative './tutum_nodes'
 require_relative './tutum_providers'
+require_relative './tutum_regions'
 require_relative './tutum_services'
 
 
