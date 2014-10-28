@@ -2,6 +2,7 @@ require_relative './tutum_api'
 require_relative './tutum_containers'
 require_relative './tutum_node_clusters'
 require_relative './tutum_nodes'
+require_relative './tutum_providers'
 require_relative './tutum_services'
 
 
