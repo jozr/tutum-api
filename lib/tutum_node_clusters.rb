@@ -44,6 +44,6 @@ class TutumNodeClusters < TutumApi
   end
 
   def terminate(uuid)
-    delete(terminate_url(uuid))
+    http_delete(terminate_url(uuid))
   end
 end
