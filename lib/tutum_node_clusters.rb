@@ -28,7 +28,7 @@ class TutumNodeClusters < TutumApi
   end
 
   def update(uuid, params)
-    http_put(update_url(uuid), params)
+    http_patch(update_url(uuid), params)
   end
 
   def deploy_url(uuid)

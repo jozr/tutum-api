@@ -22,8 +22,8 @@ class TutumApi
     RestClient.post(url(path), content.to_json, headers)
   end
 
-  def http_put(path, content={})
-    RestClient.put(url(path), content.to_json, headers)
+  def http_patch(path, content={})
+    RestClient.patch(url(path), content.to_json, headers)
   end
 
   def http_delete(path)

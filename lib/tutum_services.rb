@@ -36,7 +36,7 @@ class TutumServices < TutumApi
   end
 
   def update(uuid, params)
-    http_put(update_url(uuid), params)
+    http_patch(update_url(uuid), params)
   end
 
   def start_url(uuid)
