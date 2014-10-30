@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.authors       = ['Josie Wright', 'Martyn Garcia', 'Mikkel Garcia']
   s.email         = ['jozwright@gmail.com']
-  s.homepage      = 'http://rubygems.org/gems/tutum-api'
+  s.homepage      = 'https://github.com/jozw/tutum-api'
   s.summary       = 'A Ruby wrapper around the Tutum API'
   s.files         = Dir.glob('lib/*.rb')
 
