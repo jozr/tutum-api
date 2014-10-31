@@ -6,7 +6,7 @@ This library implements [Tutum's API](https://docs.tutum.co/v2/api/). It was spa
 ## Installation
 
 ```
-$ gem install ruby-trello
+$ gem install tutum-api
 ```
 ##Configuration
 
