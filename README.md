@@ -10,8 +10,6 @@ $ gem install tutum-api
 ```
 ##Configuration
 
-Basic authorization:
-
 In order to make requests, you must secure your username and [API key](https://dashboard.tutum.co/account/).
 
 ```ruby
