@@ -14,7 +14,7 @@ Basic authorization:
 
 ```ruby
   require 'tutum'
-  tutum = Tutum.new(TUTUM_USERNAME, API_KEY)
+  session = Tutum.new(TUTUM_USERNAME, API_KEY)
 ```
 ##Contributing
 
