@@ -31,4 +31,4 @@ $ rake
 
 ##Contributing
 
-If you find any issues or want to add functionality, feel free to fork or report.
+Documentation, feature requests, code, tests, and bug reports are welcomed.
