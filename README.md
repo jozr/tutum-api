@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/jozw/tutum-api.svg)](https://travis-ci.org/jozw/tutum-api)
 [![Gem Version](https://badge.fury.io/rb/tutum-api.svg)](http://badge.fury.io/rb/tutum-api)
 
-
+This gem is deprecated. Please refer to Tutumcloud's [ruby-tutum](https://github.com/tutumcloud/ruby-tutum) for the latest version.<br />
 Ruby API for Tutum
 ======================
 
